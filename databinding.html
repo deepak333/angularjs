@@ -2,8 +2,12 @@
 <html>
 <body>
 
-<div ng-app>
-<p>My first expression: {{ 5 + 5 }}</p>
+<div ng-app="">
+
+<p>Input a name in the input box:</p>
+<p>Name: <input type="text" ng-model="firstName"></p>
+<p>Hello {{ firstName }} !!!</p>
+
 </div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
